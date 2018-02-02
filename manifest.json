@@ -1,0 +1,46 @@
+{
+  "description": "Adds a browser action icon to the toolbar. Click the button to choose a country of weather. Select a coutry and get the situation of weather ",
+  "manifest_version": 2,
+  "name": "Weather",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/weather.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/weather.png",
+    "theme_icons": [{
+        "light": "icons/weather.png",
+        "dark": "icons/weather.png",
+        "size": 32
+    }],
+
+      "default_title": "Weather",
+        "default_popup": "popup/choose_country.html"
+      },
+
+        "web_accessible_resources": [
+          "firefox/weather/popup/01d.png",
+          "firefox/weather/popup/01n.png",
+          "firefox/weather/popup/02d.png",
+          "firefox/weather/popup/02n.png",
+          "firefox/weather/popup/03d.png",
+          "firefox/weather/popup/03n.png",
+          "firefox/weather/popup/04d.png",
+          "firefox/weather/popup/04n.png",
+          "firefox/weather/popup/09d.png",
+          "firefox/weather/popup/09n.png",
+          "firefox/weather/popup/10d.png",
+          "firefox/weather/popup/10n.png",
+          "firefox/weather/popup/11d.png",
+          "firefox/weather/popup/11n.png",
+          "firefox/weather/popup/13d.png",
+          "firefox/weather/popup/13n.png",
+          "firefox/weather/popup/50d.png",
+          "firefox/weather/popup/50n.png"
+        ]
+}
